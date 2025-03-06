@@ -8,8 +8,12 @@ const Navbar = () => {
     <nav className="w-full bg-white shadow-md py-4 px-6 fixed top-0 left-0 z-50">
       <div className="max-w-4xl mx-auto flex justify-between items-center">
         {/* Brand Name */}
-        <h1 className="text-xl font-bold text-gray-800">Simone Liu</h1>
-
+        <Link
+          to="/"
+          className="text-xl font-bold text-gray-800 hover:text-blue-600"
+        >
+          Simone Liu
+        </Link>
         {/* Mobile Menu Button */}
         <button
           className="block md:hidden text-gray-800"
