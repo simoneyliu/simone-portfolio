@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const ResumeSite = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       <div className="w-full max-w-4xl p-8 shadow-xl rounded-2xl bg-white">
         <div className="flex flex-col md:flex-row items-center gap-6">
           <img
